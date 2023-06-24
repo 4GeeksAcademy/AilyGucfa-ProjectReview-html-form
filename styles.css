@@ -1,0 +1,92 @@
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    
+    
+    
+}
+.container{
+    width: 90%;
+    border: solid rgb(229, 224, 224);  
+}
+form{
+    background-color: white;
+    margin: 25px;
+    width: 80%;
+    
+}
+.form-control{
+    background-color: pink;
+    border-radius: 5px;
+    padding: 10px;
+}
+.header{
+    padding: 10px;
+    border-radius: 2px;
+    width: 100%; 
+}
+#cardNumber{
+    width: 85%;
+    border-radius: 5px;
+    border:solid rgb(224, 217, 217);
+    
+}
+#cvc{
+    width: 90%;
+    border-radius: 5px;
+    border:solid rgb(224, 217, 217);
+}
+#amount{
+    width: 93%;
+    border-radius: 5px;
+    border:solid rgb(224, 217, 217);
+    height: 50%;
+}
+#firstname{
+    width: 96%;
+    border-radius: 5px;
+    border:solid rgb(224, 217, 217);
+}
+#city{
+    width: 96%;
+    border-radius: 5px;
+    border:solid rgb(224, 217, 217);
+}
+#lastname{
+    width: 99%;
+    border-radius: 5px;
+    border:solid rgb(224, 217, 217);
+}
+#state{
+    width: 100%;
+    border-radius: 5px;
+    border:solid rgb(224, 217, 217);
+    margin-right: 60px;
+}
+#postalcode{
+    width: 90%;
+    border-radius: 5px;
+    border:solid rgb(224, 217, 217);
+    margin-left: 15px;
+}
+#message{
+    width: 98%;
+    border-radius: 5px;
+    border:solid rgb(224, 217, 217);
+}
+.place{
+    display: flex;
+}
+.place-right{
+    margin-left: 15px;
+}
+.cardType{
+    width: 55%;
+    border-radius: 5px;
+}
+label{
+    font-weight:500;
+}
