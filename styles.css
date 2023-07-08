@@ -14,9 +14,11 @@ form {
   width: 80%;
 }
 .form-control {
-  background-color: pink;
   border-radius: 5px;
   padding: 10px;
+}
+#floatingInputInvalid {
+  background-color: pink;
 }
 .header {
   padding: 10px;
@@ -24,69 +26,81 @@ form {
   width: 100%;
 }
 #cardNumber {
-  width: 85%;
+  width: 75%;
   border-radius: 5px;
-  border: solid rgb(224, 217, 217);
 }
 #cvc {
-  width: 90%;
   border-radius: 5px;
-  border: solid rgb(224, 217, 217);
 }
+#expirationDate {
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
 #amount {
-  width: 93%;
   border-radius: 5px;
-  border: solid rgb(224, 217, 217);
-  height: 50%;
+  margin-top: 5px;
+  width: 60%;
 }
-#firstname {
+
+#firstName {
   width: 70%;
   border-radius: 5px;
-  border: solid rgb(224, 217, 217);
 }
-#city {
-  width: 70%;
+#inputAddress {
+  width: 85%;
+}
+
+#inputCity {
+  width: 75%;
   border-radius: 5px;
-  border: solid rgb(224, 217, 217);
+  margin-left: 35px;
+  margin-right: 10px;
 }
-#lastname {
+#city_label {
+  margin-left: 35px;
+}
+#lastName {
   width: 97%;
   border-radius: 5px;
-  border: solid rgb(224, 217, 217);
 }
-#state {
+#inputState {
   width: 100%;
   border-radius: 5px;
-  border: solid rgb(224, 217, 217);
-  margin-right: 60px;
+  margin-left: 10px;
 }
-#postalcode {
-  width: 90%;
+#state_label {
+  margin-left: 10px;
+}
+#inputZip {
+  width: 65%;
   border-radius: 5px;
-  border: solid rgb(224, 217, 217);
-  margin-left: 15px;
+  margin-left: 50px;
+}
+#zip_label {
+  margin-left: 50px;
 }
 #message {
   width: 98%;
   border-radius: 5px;
-  border: solid rgb(224, 217, 217);
 }
-.selectState {
-  display: flex;
-  margin-right: 10px;
-  width: 600px;
-}
-.postalCode_inputBox {
+
+.inputZip {
   margin-left: 18px;
   width: 270px;
 }
-.postalCode {
+.inputZip {
   margin-left: 20px;
+}
+#creditCardInfo {
+  padding-top: 25px;
 }
 .cardType {
   width: 50%;
-  height: 50%;
   border-radius: 5px;
+}
+#cardTypeAndMessageRow {
+  padding-top: 10px;
 }
 label {
   font-weight: 500;
