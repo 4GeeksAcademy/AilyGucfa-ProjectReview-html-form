@@ -1,92 +1,93 @@
-
-.main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: auto;
-    
-    
-    
+.main_div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
 }
-.container{
-    width: 90%;
-    border: solid rgb(229, 224, 224);  
+.container {
+  width: 90%;
+  border: solid rgb(229, 224, 224);
 }
-form{
-    background-color: white;
-    margin: 25px;
-    width: 80%;
-    
+form {
+  background-color: white;
+  margin: 25px;
+  width: 80%;
 }
-.form-control{
-    background-color: pink;
-    border-radius: 5px;
-    padding: 10px;
+.form-control {
+  background-color: pink;
+  border-radius: 5px;
+  padding: 10px;
 }
-.header{
-    padding: 10px;
-    border-radius: 2px;
-    width: 100%; 
+.header {
+  padding: 10px;
+  border-radius: 2px;
+  width: 100%;
 }
-#cardNumber{
-    width: 85%;
-    border-radius: 5px;
-    border:solid rgb(224, 217, 217);
-    
+#cardNumber {
+  width: 85%;
+  border-radius: 5px;
+  border: solid rgb(224, 217, 217);
 }
-#cvc{
-    width: 90%;
-    border-radius: 5px;
-    border:solid rgb(224, 217, 217);
+#cvc {
+  width: 90%;
+  border-radius: 5px;
+  border: solid rgb(224, 217, 217);
 }
-#amount{
-    width: 93%;
-    border-radius: 5px;
-    border:solid rgb(224, 217, 217);
-    height: 50%;
+#amount {
+  width: 93%;
+  border-radius: 5px;
+  border: solid rgb(224, 217, 217);
+  height: 50%;
 }
-#firstname{
-    width: 96%;
-    border-radius: 5px;
-    border:solid rgb(224, 217, 217);
+#firstname {
+  width: 70%;
+  border-radius: 5px;
+  border: solid rgb(224, 217, 217);
 }
-#city{
-    width: 96%;
-    border-radius: 5px;
-    border:solid rgb(224, 217, 217);
+#city {
+  width: 70%;
+  border-radius: 5px;
+  border: solid rgb(224, 217, 217);
 }
-#lastname{
-    width: 99%;
-    border-radius: 5px;
-    border:solid rgb(224, 217, 217);
+#lastname {
+  width: 97%;
+  border-radius: 5px;
+  border: solid rgb(224, 217, 217);
 }
-#state{
-    width: 100%;
-    border-radius: 5px;
-    border:solid rgb(224, 217, 217);
-    margin-right: 60px;
+#state {
+  width: 100%;
+  border-radius: 5px;
+  border: solid rgb(224, 217, 217);
+  margin-right: 60px;
 }
-#postalcode{
-    width: 90%;
-    border-radius: 5px;
-    border:solid rgb(224, 217, 217);
-    margin-left: 15px;
+#postalcode {
+  width: 90%;
+  border-radius: 5px;
+  border: solid rgb(224, 217, 217);
+  margin-left: 15px;
 }
-#message{
-    width: 98%;
-    border-radius: 5px;
-    border:solid rgb(224, 217, 217);
+#message {
+  width: 98%;
+  border-radius: 5px;
+  border: solid rgb(224, 217, 217);
 }
-.place{
-    display: flex;
+.selectState {
+  display: flex;
+  margin-right: 10px;
+  width: 600px;
 }
-.place-right{
-    margin-left: 15px;
+.postalCode_inputBox {
+  margin-left: 18px;
+  width: 270px;
 }
-.cardType{
-    width: 55%;
-    border-radius: 5px;
+.postalCode {
+  margin-left: 20px;
 }
-label{
-    font-weight:500;
+.cardType {
+  width: 50%;
+  height: 50%;
+  border-radius: 5px;
+}
+label {
+  font-weight: 500;
 }
