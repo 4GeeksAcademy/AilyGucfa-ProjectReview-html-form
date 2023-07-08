@@ -19,6 +19,8 @@ form {
 }
 #floatingInputInvalid {
   background-color: pink;
+  font-size: x-small;
+  letter-spacing: 1px;
 }
 .header {
   padding: 10px;
@@ -46,9 +48,11 @@ form {
 #firstName {
   width: 70%;
   border-radius: 5px;
+  font-size: smaller;
 }
 #inputAddress {
   width: 85%;
+  font-size: smaller;
 }
 
 #inputCity {
@@ -63,11 +67,13 @@ form {
 #lastName {
   width: 97%;
   border-radius: 5px;
+  font-size: smaller;
 }
 #inputState {
   width: 100%;
   border-radius: 5px;
   margin-left: 10px;
+  height: 60%;
 }
 #state_label {
   margin-left: 10px;
@@ -101,6 +107,9 @@ form {
 }
 #cardTypeAndMessageRow {
   padding-top: 10px;
+}
+.cancelAndSubmitInstruction {
+  font-size: x-small;
 }
 label {
   font-weight: 500;
